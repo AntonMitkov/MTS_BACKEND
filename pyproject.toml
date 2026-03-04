@@ -1,0 +1,13 @@
+[project]
+name = "iaas-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.135.1",
+    "pydantic-settings>=2.13.1",
+    "pylxd>=2.3.8",
+    "pyyaml>=6.0.3",
+    "uvicorn>=0.41.0",
+]
