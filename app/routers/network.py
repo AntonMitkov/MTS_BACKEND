@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
-from core.lxd import client
-from schemas.models import NetworkCreate
+from ..core.lxd import client
+from ..schemas.models import NetworkCreate
 
 router = APIRouter(prefix="/networks", tags=["Networks"])
 
